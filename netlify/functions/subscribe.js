@@ -9,7 +9,7 @@ exports.handler = async (event, context) => {
   }
 
   const GIST_MAP = {
-    'azayur': 'https://raw.githubusercontent.com/azayur/d3c41a59de83d8870a12fd4030f57a77/raw/b662e57ad052576d788451846dc4c3ae232b8c9b/azayur.txt',
+    'azayur': 'https://gist.githubusercontent.com/azayur/d3c41a59de83d8870a12fd4030f57a77/raw/b662e57ad052576d788451846dc4c3ae232b8c9b/azayur.txt',
   };
 
   const gistUrl = GIST_MAP[user];
